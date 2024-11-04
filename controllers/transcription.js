@@ -2,7 +2,7 @@ const fs = require('fs');
 const OpenAI = require('openai');
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
+  apiKey:''
 });
 
 const transcribeAudio = async (filePath) => {
